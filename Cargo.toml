@@ -1,7 +1,7 @@
 [package]
 name = "silica"
 version = "0.1.0"
-authors = ["Anishjindal08@gmail.com <anishjindal08@gmail.com>"]
+authors = ["Luminoso-256 (Github: github.com//Luminoso-256"]
 edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,7 +15,12 @@ edition = "2018"
 bootloader = "0.9.8"
 volatile = "0.2.6"
 spin = "0.5.2"
-
+x86_64 = "0.12.1"
+uart_16550 = "0.2.0"
 [dependencies.lazy_static]
 version = "1.0"
 features = ["spin_no_std"]
+
+[package.metadata.bootimage]
+test-args = ["-device", "isa-debug-exit,iobase=0xf4,iosize=0x04"]
+test-success-exit-code = 33
