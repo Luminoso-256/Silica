@@ -22,8 +22,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6e4fd-e9ab-4dda-8623-6417809489af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.cargo/config.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x86_64-silica.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vga_buffer.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cargo/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/.cargo/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606528597519</updated>
-      <workItem from="1606528598677" duration="827000" />
+      <workItem from="1606528598677" duration="6208000" />
     </task>
     <servers />
   </component>
@@ -86,5 +97,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="732" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606533023946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606533023946" />
+    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606573318959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606573318959" />
   </component>
 </project>
