@@ -1,8 +1,10 @@
 #![no_std]
+#![feature(abi_x86_interrupt)]
 use core::panic::PanicInfo;
 pub mod serial;
 pub mod vga_buffer;
-
+pub mod interrupts;
+pub mod gdt;
 
 pub trait Testable {
     fn run(&self) -> ();
@@ -18,6 +20,12 @@ impl<T> Testable for T
         serial_println!("[ok]");
     }
 }
+
+pub fn init() {
+    interrupts::init_idt();
+    gdt::init();
+}
+
 #[cfg(test)]
 pub fn test_runner(tests: &[&dyn Testable]) {
     serial_println!("Running {} tests", tests.len());
@@ -30,6 +38,7 @@ pub fn test_runner(tests: &[&dyn Testable]) {
 #[cfg(test)]
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
+    init();
     test_main();
     loop {}
 }

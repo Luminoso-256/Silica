@@ -9,11 +9,15 @@ use silica::println;
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    println!("Hello World{}", "!");
+    silica::init(); // new
+
+    // invoke a breakpoint exception
+    x86_64::instructions::interrupts::int3(); // new
 
     #[cfg(test)]
         test_main();
-
+    println!("Silica");
+    println!("Enter command:->");
     loop {}
 }
 
