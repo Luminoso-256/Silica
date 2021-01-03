@@ -22,13 +22,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa6e4fd-e9ab-4dda-8623-6417809489af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gdt.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interrupts.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/stack_overflow.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interrupts.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/interrupts.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serial.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/serial.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vga_buffer.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/vga_buffer.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/stack_overflow.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/stack_overflow.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +63,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspectionC:/Workspace/Programming/rust/silica/src/module_test/beryl.rs" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Cargo.Run">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
@@ -89,11 +93,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
       <item itemvalue="Cargo.Test" />
@@ -113,7 +112,8 @@
       <updated>1606528597519</updated>
       <workItem from="1606528598677" duration="16209000" />
       <workItem from="1606747902898" duration="4549000" />
-      <workItem from="1607870584504" duration="2153000" />
+      <workItem from="1607870584504" duration="8660000" />
+      <workItem from="1608431153204" duration="11000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 #![no_std]
 #![no_main]
+#![feature(abi_x86_interrupt)]
 use silica::serial_print;
 use core::panic::PanicInfo;
 use lazy_static::lazy_static;
